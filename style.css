@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color:wheat
+}
+/* HEADER */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    border-radius: 10px;
+    background-color: burlywood;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top:0;
+
+}
+
+.logo{
+    padding: 10px;
+}
+.logo_name{
+    font-size: 16px;
+    font-family: aclonica;
+}
+.nav{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 80px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: aclonica;
+     font-size: 12px;
+     padding-left: 6px;
+ }
+ .nav a:hover{
+    color: rgb(255, 196, 0);
+ }
+ 
+ /* HOME */
+ .home{
+margin-top: 100px;    
+ }
+ .home h1{
+font-family: aclonica;
+font-weight: 600;
+text-align: center;
+
+ }
+ .home h1 span{
+    color: rgb(255, 196, 0);
+ }
+ .home_img img{
+    height: 300px;
+    margin-left:50px;
+    animation: spin 2s linear infinite;
+   
+    
+ }
+ @keyframes spin {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px); 
+    }
+
+ }
+
+
+ 
+ .home_dish img{
+    height: 70px;
+    width: 350px;
+    padding-top:0px;
+padding-left: 50px;
+animation: dish 2s linear infinite; 
+}
+@keyframes dish{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); 
+    }
+
+}
+.chicken_burger{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    width:200px;
+    background-color:rgb(189, 155, 111);
+    transition:  transform 0.5s ease, box-shadow 0.5s ease;
+    justify-content: center;
+    align-items: center;
+}
+.chicken_burger:hover{
+transform: translateY(-10px);
+background-color: burlywood;
+}
+.chicken_burger .cb{
+    height:120px;
+   margin-left: 40px;
+width: 120px;
+top:-2rem;
+left: 0
+;
+right: 0;
+width: 120px;
+    
+
+}
+.chicken_burger p{
+    font-family: montserrat;
+    font-size: 18px;
+   
+    font-weight:700;
+    text-align: center;
+    justify-content: center;
+
+}
+.chicken_burger .price{
+    font-family: aclonica;
+   font-size: larger;
+  padding-left: 80px;
+  color: brown;
+  padding-bottom: 10px;
+ 
+ 
+ 
+}
+.chicken_burger .price img:hover{
+cursor: pointer;
+background-color: chocolate;
+}
+.bb{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+margin-left: 10px;
+}
+.burgers{
+margin-top: 100px;
+
+}
+.burgers h1{
+font-size: xx-large;
+font-family: aclonica;
+justify-content: center;
+align-self: center;
+margin-left: 140px;
+}
+
+
+.deals h1{
+font-size: xx-large;
+font-family: aclonica;
+justify-content: center;
+align-items: center;
+margin-left: 150px;
+padding-top: 100px;
+}
+.deal1{
+ box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    width:200px;
+    background-color:rgb(189, 155, 111);
+    transition:  transform 0.5s ease, box-shadow 0.5s ease;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.deal1 img{
+height: 150px;
+width: 200px;
+}
+.deal1 p{
+font-family: aclonica;
+font-weight: 200;
+margin-left: 20px;
+}
+.deal1 .price{
+   font-family: aclonica;
+   font-size: larger;
+  padding-left: 80px;
+  color: brown;
+  padding-bottom: 10px;
+ 
+}
+.deal1 .price img{
+height:20px;
+width:20px;
+
+}
+.deal1:hover{
+transform: translateY(-10px);
+background-color: burlywood;
+}
+.deal1 .price img:hover{
+cursor: pointer;
+background-color: chocolate;
+}
+.box{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+margin-left: 10px;
+}
+.othersitem img{
+height: 100px;
+width: 100px;
+justify-content: center;
+margin-left: 50px;
+margin-top: 20px;
+}
+.othersitem .data p{
+    font-family: aclonica;
+font-size: larger;
+margin-top: 30px;
+margin-left: 30px;
+}
+.othersitem .price img{
+    height:20px;
+    width:20px;
+    
+}
+.othersitem .price{
+    font-family: aclonica;
+    font-size: larger;
+   padding-left: 80px;
+   color: brown;
+   padding-bottom: 10px;
+ 
+}
+.othersitem{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+       width:200px;
+       background-color:rgb(189, 155, 111);
+       transition:  transform 0.5s ease, box-shadow 0.5s ease;
+       justify-content: center;
+       align-items: center;
+   
+   
+   }  
+
+.othersitem:hover{
+    transform: translateY(-10px);
+    background-color: burlywood;
+    }
+    .all{
+    
+            display:flex;
+            flex-wrap:wrap;
+            gap:25px;
+            margin-left: 10px;
+    
+               
+    }
+    .othersitem .price img:hover{
+        cursor: pointer;
+        background-color: chocolate;
+        
+    }
+    .others h1{
+        font-size: xx-large;
+        font-family: aclonica;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        padding-top: 100px;
+           
+
+    }
+    .delivery{
+        background-color:black;
+        margin-top: 100px;
+        border-radius: 50px;
+    }
+    .delivery-data{
+        color:burlywood;
+        overflow: hidden;
+
+    }
+    .delivery-data h1{
+        font-size: x-large;
+        font-family: aclonica;
+        padding-left: 50px;
+        margin-top: 40px;
+    }
+    .delivery-data p{
+        font-family: montserrat;
+        font-size: small;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+    
+    .card span p{
+       display: flex;
+       font-family: aclonica;
+       font-size: larger;
+    text-transform: uppercase;
+
+    padding-bottom: 50px;
+    margin-top: 10px;
+    }
+    .card span{
+    display: flex;
+    }
+    footer p{
+        padding-bottom: 100px;
+        margin-top: 50px;
+        align-items: center;
+        padding-left:150px;
+        /* font-family: montserrat; */
+        text-transform: capitalize;
+        letter-spacing: 2px;
+
+
+    }
+    @media screen and (min-width:581px){
+      .nav a{
+        padding-left: 20px;
+
+      }  
+      .home_img img{
+        margin-left: 90px;
+      }
+      .home_dish img{
+        margin-left: 40px;
+      }
+      .chicken_burger{
+        margin-left: 40px;
+      }
+      .burgers h1{
+        margin-left: 200px;
+      }
+      .deals h1{
+        margin-left: 200px;
+      }
+      .deal1{
+        margin-left: 40px;
+      }
+      .others h1{
+        margin-left: 200px;
+      }
+      .all{
+        margin-left: 70px;
+      
+
+    } 
+    .delivery{
+        width:500px;
+        margin-left: 40px;
+
+    }
+    footer p{
+        margin-left: 50px;
+    }
+        
+}
+@media screen and (min-width:857px){
+    .nav a{
+      padding-left: 70px;
+
+    }  
+    .home_data  h1{
+        margin-top: 100px;
+    }
+    .home_img img{
+      margin-left: 240px;
+    }
+    .home_dish img{
+      margin-left: 190px;
+
+      
+    }
+    .chicken_burger{
+      margin-left: 55px;
+      width: 300px;
+      margin-right: 20px;
+    }
+    .chicken_burger .cb{
+margin-left: 100px;
+    }
+    .burgers h1{
+      margin-left: 350px;
+      font-size: xx-large;
+      margin-bottom: 100px;
+       
+
+    }
+    .deals h1{
+        margin-left: 350px;
+        font-size: xx-large;
+        margin-bottom: 100px;
+  
+    }
+    .deal1{
+      margin-left: 40px;
+    }
+    .others h1{
+      margin-left: 330px;
+      margin-bottom: 100px;
+
+    }
+    .all{
+      margin-left: 90px;
+    
+
+  } 
+  .delivery{
+      width:500px;
+      margin-left: 200px;
+
+  }
+  footer p{
+      margin-left: 200px;
+      
+  }
+}
+@media screen and (min-width:1115px){
+    .nav{
+        margin-left: 200px;
+    }
+    .nav a{
+      padding-left: 70px;
+
+    }  
+    .home_data  h1{
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    .home_img img{
+      margin-left: 450px;
+    }
+    .home_dish img{
+      margin-left: 400px;
+
+      
+    }
+    .chicken_burger{
+      margin-left: 85px;
+      width: 300px;
+      margin-right: 20px;
+    }
+    .chicken_burger .cb{
+margin-left: 100px;
+    }
+    .burgers h1{
+      margin-left: 550px;
+      font-size: 50px;
+      margin-bottom: 100px;
+       
+
+    }
+    .deals h1{
+        margin-left: 550px;
+      font-size: 50px;
+      margin-bottom: 100px;
+
+  
+    }
+    .deal{
+        margin-left: 100px;
+    }
+    .deal1{
+      margin-left: 200px;
+
+
+    }
+    .others h1{
+        margin-left: 550px;
+        font-size: 50px;
+        margin-bottom: 100px;
+
+    }
+    .all{
+      margin-left: 210px;
+      
+    
+
+  } 
+  .delivery{
+    margin-left: 300px;  
+    width:800px;
+      /* margin-left: 100px; */
+      height: 400px;
+
+  }
+   .card p{
+    width:500px;
+
+  }
+  footer p{
+      margin-left: 500px;
+      
+  }
+}
