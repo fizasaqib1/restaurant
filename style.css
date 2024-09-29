@@ -362,54 +362,56 @@ margin-left: 30px;
     }
         
 }
-    @media screen and (min-width:332px){
+    @media screen and (min-width:349px){
       .nav a{
      padding: 1px;
+     font-size: 9px;
 
 
       }
       .nav{
         margin-left: 0px;
-        padding-left: 50px;
+        padding-left: 20px;
       }  
       .home_img img{
-        margin-left: 90px;
+        margin-left: 50px;
         height: 200px;
       }
       .home_dish img{
-        margin-left: 40px;
+        margin-left: 0px;
         width: 250px;
 
 
       }
       .chicken_burger{
-        margin-left: 100px;
+        margin-left: 55px;
+        
       }
       .burgers h1{
-        margin-left: 140px;
+        margin-bottom: 70px;
+        margin-left:70px;
       }
       .deals h1{
-        margin-left: 160px;
-        margin-bottom: 100px;
-
-
-
+        margin-bottom: 70px;
+        margin-left:100px;
       }
       .deal1{
-        margin-left: 100px;
+        margin-left: 55px;
+      
       }
       .others h1{
-        margin-left: 160px;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
+        margin-left:100px;
+
       }
       .all{
-        margin-left: 120px;
+        margin-left: 65px;
       
 
     } 
     .delivery{
         width:300px;
-        margin-left: 60px;
+        margin-left: 10px;
 overflow: hidden;
     }
     .card img{
@@ -419,9 +421,10 @@ width: 300px;
       overflow: hidden;
     }
     footer p{
-        margin-left: 0px;
-        margin-right: 40px;
-    }
+ 
+ float: left;
+ padding-left: 0;
+   }
         
 }
 @media screen and (min-width:857px){
