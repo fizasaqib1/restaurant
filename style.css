@@ -362,6 +362,68 @@ margin-left: 30px;
     }
         
 }
+    @media screen and (min-width:332px){
+      .nav a{
+     padding: 1px;
+
+
+      }
+      .nav{
+        margin-left: 0px;
+        padding-left: 50px;
+      }  
+      .home_img img{
+        margin-left: 90px;
+        height: 200px;
+      }
+      .home_dish img{
+        margin-left: 40px;
+        width: 250px;
+
+
+      }
+      .chicken_burger{
+        margin-left: 100px;
+      }
+      .burgers h1{
+        margin-left: 140px;
+      }
+      .deals h1{
+        margin-left: 160px;
+        margin-bottom: 100px;
+
+
+
+      }
+      .deal1{
+        margin-left: 100px;
+      }
+      .others h1{
+        margin-left: 160px;
+        margin-bottom: 100px;
+      }
+      .all{
+        margin-left: 120px;
+      
+
+    } 
+    .delivery{
+        width:300px;
+        margin-left: 60px;
+overflow: hidden;
+    }
+    .card img{
+      float: left;
+      margin-left: 10px;
+width: 300px;
+      overflow: hidden;
+    }
+    footer p{
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+        
+}
 @media screen and (min-width:857px){
     .nav a{
       padding-left: 70px;
